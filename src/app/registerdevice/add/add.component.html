@@ -1,0 +1,7 @@
+
+<form [formGroup]="productform">
+<input type="text" formControlName="productName" placeholder="Enter Product Name">
+<input type="number" formControlName="productPrice" placeholder="Enter Product Price">
+<input type="text" formControlName="productType" placeholder="Enter Product Type">
+<button type="button" (click)="saveProduct()">Submit</button>
+</form>
