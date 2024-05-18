@@ -22,6 +22,7 @@ return this.http.delete(`http://localhost:8080/product/deleteProduct/${id.id}`)
   getSingleProduct(id:number)
   {
    return this.http.get(`http://localhost:8080/product/getProductById/${id}`)
+    console.log("In single product method")
   }
   updateProduct(prod:Product)
   {
